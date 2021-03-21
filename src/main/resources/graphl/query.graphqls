@@ -1,0 +1,11 @@
+type Query {
+    getAllActors: [Actor]
+
+    getAllRoles: [Role]
+
+    getRoleById(roleId: Int!): Role
+
+#    getRolesByActorId(actorId: Int!): [Role]
+
+    getActorById(actorId: Int!): Actor
+}

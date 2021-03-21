@@ -1,0 +1,5 @@
+type Actor {
+    id: Int!
+    actorName: String!
+#    roles: [Role]
+}
